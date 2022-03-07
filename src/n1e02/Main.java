@@ -14,6 +14,7 @@ public class Main {
             numberList.add(i * 3);
         }
 
+        //create string from list
         String result = numberList.stream()
                 .map(n -> {
                     if (n%2 == 0) return "e" + n; else return "o" + n;
