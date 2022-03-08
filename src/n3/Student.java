@@ -16,9 +16,9 @@ public class Student {
         String [] courses = {"Java", "Python", "C++", "C#", "Data Science",
                 "Javascript", "BackEnd", "FullStack", "FrontEnd", "PHP"};
 
-        this.name = names[rand.nextInt(0,10)];
+        this.name = names[seed/1000];
         this.age = rand.nextInt(18, 100);
-        this.course = courses[rand.nextInt(0,10)];
+        this.course = courses[seed/1000];
         this.grade = rand.nextInt(0, 10);
     }
 
