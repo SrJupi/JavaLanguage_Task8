@@ -1,7 +1,8 @@
-package n1e04;
+package n1.fase1.e03;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -19,8 +20,7 @@ public class Main {
 
         //list with names that have o.
         List<String> containsLetterO = names.stream()
-                .filter(s -> s.toLowerCase().contains("o") &&
-                        s.length() > 5)
+                .filter(s -> s.toLowerCase().contains("o"))
                 .collect(Collectors.toList());
 
         System.out.println(containsLetterO);

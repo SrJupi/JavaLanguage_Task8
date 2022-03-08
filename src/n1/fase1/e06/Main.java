@@ -1,4 +1,4 @@
-package n1e06;
+package n1.fase1.e06;
 
 import java.util.ArrayList;
 

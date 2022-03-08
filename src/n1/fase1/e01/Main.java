@@ -1,4 +1,4 @@
-package n1e01;
+package n1.fase1.e01;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
